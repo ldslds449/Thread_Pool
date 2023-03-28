@@ -4,7 +4,8 @@
 #include <pthread.h>
 #include "queue.h"
 
-typedef struct{
+typedef struct
+{
   Queue q;
   pthread_t *threads;
   pthread_mutex_t q_mtx;
